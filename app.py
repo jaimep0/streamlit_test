@@ -10,7 +10,7 @@ if 'experiment_no' not in st.session_state:
 if 'df_experiment_results' not in st.session_state:
     st.session_state['df_experiment_results'] = pd.DataFrame(columns=['no', 'iteraciones', 'media'])
 
-st.header('Lanzar una moneda')
+st.header('Jaime ama a Leslie \nLanzar una moneda')
 
 chart = st.line_chart([0.5])
 
